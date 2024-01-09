@@ -8,7 +8,7 @@ import { RevenueChartSkeleton, LatestInvoicesSkeleton,CardsSkeleton, } from '@/a
 import CardWrapper from '@/app/ui/dashboard/cards';
 export default async function Page() {
   
-  const latestInvoices = await fetchLatestInvoices();
+  
   const {
     numberOfInvoices,
     numberOfCustomers,
