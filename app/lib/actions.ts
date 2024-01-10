@@ -105,6 +105,7 @@ export async function updateInvoice(
   revalidatePath('/dashboard/invoices');
   redirect('/dashboard/invoices');
 }
+
 export async function deleteInvoice(id: string) {
   // throw new Error('Failed to Delete Invoice');
  
